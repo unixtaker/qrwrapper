@@ -1,0 +1,22 @@
+application: qrwrapper
+version: 4
+runtime: python
+api_version: 1
+
+handlers:
+
+- url: /images
+  static_dir: images
+  
+- url: /qr
+  script: qrhandler.py
+
+- url: /css_never_gonna_happen
+  script: csshelper.py
+
+- url: /rr
+  script: rrhandler.py
+
+- url: /
+  script: main.py
+

@@ -20,6 +20,6 @@ handlers:
 - url: /rr
   script: rrhandler.py
 
-- url: /
+- url: /.*
   script: main.py
 

@@ -6,7 +6,7 @@ class content(object):
 		<head>
 		<meta name="keywords" content="qr codes generator" />
 		<meta name="description" content="" />
-		<link rel="stylesheet" type="text/css" href="images/default.css" />
+		<link rel="stylesheet" type="text/css" href="/images/default.css" />
 		</head>
 		<body>
 		<div id="outer">
@@ -36,6 +36,7 @@ class menu(object):
 		    <ul>
 			<li class="first"><a href="/">Home</a></li>
 			<li><a href="/qr">QR Code</a></li>
+			<li><a href="/vc">VCard</a></li>
 		    </ul>	
 		</div>
     

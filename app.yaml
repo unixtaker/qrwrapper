@@ -7,7 +7,10 @@ handlers:
 
 - url: /images
   static_dir: images
-  
+
+- url: /vc
+  script: vcardhandler.py
+
 - url: /qr
   script: qrhandler.py
 

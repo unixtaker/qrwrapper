@@ -14,10 +14,8 @@ echo Changing version number to $newversion
 
 sed -i -e "s/^version:.*/version: $newversion/" app.yaml
 
-
-
 git commit
-if [ $? eq 0 ];
+if [ $? == 0 ]; then
 git push
 fi
 

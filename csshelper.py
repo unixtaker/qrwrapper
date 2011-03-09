@@ -37,6 +37,9 @@ class menu(object):
 			<li class="first"><a href="/">Home</a></li>
 			<li><a href="/qr">QR Code</a></li>
 			<li><a href="/vc">VCard</a></li>
+			<li><a href="/bz">Biz Card</a></li>
+			<li><a href="/emsg">Email</a></li>
+			<li><a href="/wifi">WiFi Setup</a></li>
 		    </ul>	
 		</div>
     

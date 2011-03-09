@@ -1,5 +1,5 @@
 application: qrwrapper
-version: 5
+version: 6
 runtime: python
 api_version: 1
 
@@ -19,6 +19,15 @@ handlers:
 
 - url: /rr
   script: rrhandler.py
+
+- url: /bz
+  script: bizcardhandler.py
+
+- url: /emsg
+  script: emailhandler.py
+
+- url: /wifi
+  script: wifihandler.py
 
 - url: /.*
   script: main.py

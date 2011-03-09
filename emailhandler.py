@@ -13,7 +13,7 @@ class emailhandler(webapp.RequestHandler):
     		csshelper.content().get(
         """
 	<form action="/emsg" method="post">
-	<div>Please fill in your business card information:
+	<div>Please fill in your email template:
 	<table>
 	<tr><td>To:</td><td> <input type="text" name="recipient" cols="75" /></td></tr>
 	<tr><td>Subject:</td><td> <input type="text" name="subject" cols="75" /></td></tr>

@@ -14,9 +14,9 @@ class wifihandler(webapp.RequestHandler):
     	self.response.out.write(
     		csshelper.content().get('<form action="' + self.uri() + '" method="post">' +
         """
-	<div>Please fill in your business card information:
+	<div>Please fill in your WIFI setup information: 
 	<table>
-	<tr><td>Authentication Type:</td><td> <input type="text" name="authtype" cols="15" /></td></tr>
+	<tr><td>Authentication Type: (WEP/WPA)</td><td> <input type="text" name="authtype" cols="15" /></td></tr>
 	<tr><td>SSID:</td><td> <input type="text" name="ssid" cols="20" /></td></tr>
 	<tr><td>Password:</td><td> <input type="password" name="password" cols="20" /></td></tr>
 	<tr><td colspan="2"> <input type="submit" text="Go" /> </td></tr>
